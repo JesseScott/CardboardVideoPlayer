@@ -20,7 +20,14 @@ android {
 }
 
 dependencies {
+    // VR
+    compile 'com.google.vr:sdk-audio:1.10.0'
+    compile 'com.google.vr:sdk-base:1.10.0'
+
+    // Libs
     compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Tests
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
