@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_layout"
+        android:padding="10dip"
+        android:orientation="vertical" >
+
+    <TextView
+            style="@style/ContentText"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold"
+            android:textColor="@color/textDark"
+            android:text="@string/title" />
+
+    <TextView
+            style="@style/ContentText"
+            android:textColor="@color/textLight"
+            android:textSize="@dimen/caption_text_size"
+            android:text="@string/subtitle" />
+
+
+    <com.google.vrtoolkit.cardboard.widgets.video.VrVideoView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:scrollbars="@null"
+            android:layout_height="300dip"/>
+
+</LinearLayout>

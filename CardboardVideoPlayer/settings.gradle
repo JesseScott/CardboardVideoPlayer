@@ -1,5 +1,1 @@
-include ':app'
-
-include ':libraries:common'
-include ':libraries:commonwidget'
-include ':libraries:videowidget'
+include ':app', ':common', ':commonwidget', ':videowidget'

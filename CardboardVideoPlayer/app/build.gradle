@@ -20,7 +20,8 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':common')
+    compile project(':commonwidget')
+    compile project(':videowidget')
 
-    compile 'com.android.support:appcompat-v7:25.1.1'
 }
