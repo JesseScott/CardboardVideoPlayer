@@ -1,15 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 23
     buildToolsVersion "25.0.0"
     defaultConfig {
-        applicationId "ca.ecuad.research.s3dcentre.cardboardvideoplayer"
+        applicationId "ca.ecuad.research.s3dcentre.cardboardvideoplayer.nkmip"
         minSdkVersion 19
-        targetSdkVersion 25
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
